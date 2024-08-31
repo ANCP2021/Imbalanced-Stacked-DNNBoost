@@ -1,9 +1,6 @@
 # Papers #
 The "Papers" subdirectory is used for consolidation of the papers read in order to prepare for this project. The first section of papers are in relation to the boosting ensemble method, particularly XGBoost (Extreme Gradient Boosting). The second references other papers used for the research extension portion of the project, primarily tailored to deep neural network models. The below sections are as follows: a Google Drive for a consolidation of the papers, individual sources of each paper, and a summary of each paper as well as the relevancy they have. As of writing, there are a total of six papers which may increase with the continuation of the project.
 
-## Google Drive ##
-https://drive.google.com/drive/folders/1yCaDbsQGNkrIrJpNn_hdR-oOYYpSL0ke?usp=share_link
-
 ## Sources ##
 ### XGBoost ###
 A Comparative Analysis of XGBoost: https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s10462-020-09896-5&casa_token=v9KfN1RU_r4AAAAA:wDzWFvq66KPK4VBnPBXhjZZLnrr-bxQqD1xUSPQrbZ0V_dGnawRmgITRX_Rg_UFoqYp5j1yReLILV3Cz

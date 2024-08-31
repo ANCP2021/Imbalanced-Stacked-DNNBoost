@@ -6,18 +6,15 @@
 This repository contains a review and exploration into ensemble methods tailored to dealing with imbalanced data. The primary ensemble method of focus is XGBoost, and the implementation called Imbalanced-XGBoost which shows better results in binary classification than normal methods. The file "Alexander_Nemecek_Project_Report.md" contains an exploration into the XGBoost initial algorithm as well as the implementation of Imbalanced-XGBoost. The paper will also discuss possible extensions which allow for better results than the proposed method.
 
 ## Running the Code ##
-Navigate to the "ajn98-boosting" directory and install the required packages using the "requirements.txt" file.
+Install the required packages using the "requirements.txt" file.
 
 ```console
-user@pc:~$ cd /PATH/TO/csds440project-f23-4/ajn98-boosting
 user@pc:~$ pip install -r requirements.txt
 ```
 
 To be able to use the tested datasets in this project, you can download the datasets from the **DataSet Drive** section of this document.
 
-Place this outside the repository, "csds440project-f23-4" and extract it in order for the get_x_data() methods in "src/data.py" to work.
-
-- ./../../440-project-data
+Place this in the root of the repository and extract it in order for the get_x_data() methods in "src/data.py" to work.
 
 Below contains the following four datasets allowed for the user to explore with the ensemble models implemented in this library:
 
@@ -41,10 +38,10 @@ The ./src/ directory contains the following files:
 - **imbalancedNNBoost.py** - Houses a class that combines the Imbalanced-DNN model and the Imbalanced-XGBoost model.
 
 ### Running Main ###
-In order to run **main.py**, the user needs to "_cd_" to be in the directory "/PATH/TO/csds440project-f23-4/ajn98-boosting/src"
+In order to run **main.py**, the user needs to "_cd_" to be in the directory "/PATH/TO/src"
 
 ```console
-user@pc:~$ cd /PATH/TO/csds440project-f23-4/ajn98-boosting/src
+user@pc:~$ cd /PATH/TO/src
 ```
 
 The user can then run **main.py** in the following format:
